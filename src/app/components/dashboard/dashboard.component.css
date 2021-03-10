@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+@media (max-width: 990px) {
+  img {
+    width: 100px;
+  }
+
+  .cont {
+    display: flex;
+  }
+}
